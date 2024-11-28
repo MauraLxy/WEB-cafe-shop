@@ -1,0 +1,305 @@
+/* change the text color */
+* {
+	color: #333;
+}
+/* let the product image size small so that the middle vertical line can connect the vertical line */ 
+.postid-51696 div.images img {
+	max-width: 800px;
+}
+/* let the vertical line only show on large-screen devices */
+@media (min-width: 1024px){
+	.postid-51696 .et_pb_column.et_pb_column_1_2.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child{
+		border-left: 1px solid #d9d9d9;
+		padding-left: 50px;
+		margin-left: -150px;
+    }
+}
+/* let the space be shown only in large-screen devices */
+@media (min-width: 1500px){
+	.postid-51696 .et_pb_module.et_pb_wc_title.et_pb_wc_title_0.et_pb_bg_layout_light{
+		margin-bottom: 10px !important;
+	}
+	.postid-51696 .et_pb_module.et_pb_wc_price.et_pb_wc_price_0{
+  		margin-bottom: 100px !important;
+	}
+}
+/* reduce the space between the table and choose-size */
+.postid-51696 .et_pb_module.et_pb_wc_description.et_pb_wc_description_0.et_pb_bg_layout_light.et_pb_text_align_left {
+	margin-bottom: 0px !important;
+}
+/* top and bottom margin for size and grind section */
+.postid-51696 .variations{
+	margin-top: 10px !important;
+	margin-bottom: 20px !important;
+}
+/* change the width of choose-size and choose-grind label */
+.postid-51696 .label {
+	width: 150px;
+}
+/* change the label text */
+.postid-51696 label[for="choose-size"], .postid-51696 label[for="choose-grind"] {
+	font-size: 18px !important;
+}
+/* change the size and grind select box */
+.postid-51696 #choose-grind, .postid-51696 #choose-size {
+	border: 1px solid #333 !important;
+	width: 100% !important;
+	max-width: 300px !important;
+	padding: 14px;
+ 	height: 52px;
+	border-radius: 3px;
+}
+/* distance between price and choose-frequency */
+.postid-51696 .bos4w-display-plan-text{
+	margin-top: 20px;
+}
+/* remove the list bullets */
+.postid-51696 .bos4w-display-options ul {
+	list-style-type: none !important;
+	padding-left: 0px !important;
+}
+.postid-51696 .bos4w-display-options li {
+	margin-bottom: 10px !important;
+}
+/* default border and background color for unselected list label */
+.postid-51696 .bos4w-display-options label {
+	display: block;
+	border: 1px solid #d9d9d9;
+	width: 100%;
+	max-width: 454px;
+    height: 58px;
+    padding: 16px;
+	border-radius: 3px;
+	transition: background-color 0.5s ease;
+}
+/* change the radio */
+.postid-51696 .bos4w-display-options input[type="radio"] {
+	appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+	margin-right: 5px;
+}
+/* hover */
+.postid-51696 .bos4w-display-options label:hover {
+    border-color: grey;
+    background-color: #f3f3f3;
+}
+/* selected */
+.postid-51696 .bos4w-display-options input[type="radio"]:checked {
+    border-color: #333;
+    background-color: white;
+}
+.postid-51696 .bos4w-display-options input[type="radio"]:checked::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* change the box background and border color when selected */
+.postid-51696 .bos4w-display-options label:has(input[name="bos4w-purchase-type"]:checked) {
+	border: 1px solid #333;
+	background-color: #f3f3f3;
+}
+/* merge the background of subscribe and the frequency below */
+.postid-51696 .bos4w-display-options label[for="bos4w-subscribe-to"]:has(input[name="bos4w-purchase-type"]:checked) {
+	border-bottom: none !important;
+}
+.postid-51696 .bos4w-display-dropdown{
+	margin-top: -35px;
+	background-color: #f3f3f3;
+	width: 100%;
+    max-width: 454px;
+	padding-bottom: 20px;
+	padding-left: 41px;
+	border: 1px solid #333;
+	border-top: none !important;
+}
+/*style of frequency label */
+.postid-51696 label[for="bos4w-dropdown-plan"] {
+	display: block;
+    font-size: 16px !important;
+	margin-bottom: 10px;
+}
+/* style of frequency plan */
+.postid-51696 #bos4w-dropdown-plan {
+	border: 1px solid #333;
+	width: 90%;
+	padding: 8px 0 8px 8px;
+ 	height: 40px;
+	border-radius: 3px;
+}
+/* add a red SAVE 15% sign */
+.postid-51696 .bos-display-save-up-to::after {
+	content: "SAVE 15%";
+    font-size: 12px;
+    font-weight: 1000;
+    color: white;
+    background-color: #F91155;
+    padding: 5px 13px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+/* distance between subscribe and quantity */
+.postid-51696 .bos4w-display-options ul {
+	margin-bottom: -15px;
+}
+/* style of quantity and input */
+.postid-51696 .quantity {
+	border: 1px solid #333;
+    text-align: center;
+	height: 40px;
+}
+.postid-51696 .quantity input {
+	padding: 0 !important;
+}
+/* style of the quantity and button area */
+@media (min-width: 400px) {
+	.postid-51696 .single_add_to_cart_button.button.alt {
+		width: 53%;
+		max-width: 200px;
+	}
+	.postid-51696 .quantity {
+		width: 40% !important;
+		max-width: 231px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+	/* leave some space on the left and right for the small-screen devices */
+	.postid-51696 .et_pb_row.et_pb_row_1, .postid-51696 .related.products {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+	/* let the text be in the middle */
+	.postid-51696 .et_pb_all_tabs {
+		align-items: center;
+		display: flex;
+	}
+}
+@media (min-width: 1024px) {
+	/* vertical lines */
+	.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_3.et_pb_css_mix_blend_mode_passthrough {
+		margin-right: 20px !important;
+		padding-right: 20px;
+		padding-top: 20px;
+		width: 30% !important;
+	}
+	.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough {
+		margin-right: 20px !important;
+		border-right: 1px solid #d9d9d9;
+		border-left: 1px solid #d9d9d9;
+		padding: 20px;
+		width: 35% !important;
+	}
+	.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+		padding-left: 20px !important;
+		padding-top: 20px;
+		width: 30% !important;
+	}
+	/* horizontal line */
+	.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_3.et_pb_css_mix_blend_mode_passthrough div:nth-of-type(2) {
+		border-bottom: 1px solid #d9d9d9;
+	}
+}
+@media (max-width: 1000px) {
+	.postid-51696 #coffee-description div:nth-of-type(1) {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	}
+	.postid-51696 #coffee-description div:nth-of-type(2) {
+		margin-bottom: 10px !important;
+	}
+}
+.postid-51696 #coffee-description {
+	max-width: 1800px !important;
+    border-top: 1px solid #d9d9d9;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+/* add padding to two tables in the middle column */
+.postid-51696 #testing-notes td, .postid-51696 #recipe td {
+	padding: 15px !important;
+}
+/* reduce the space between texts in 3 columns */
+.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_3.et_pb_css_mix_blend_mode_passthrough div:nth-of-type(-n+4) {
+    margin-bottom: 20px !important;
+}
+.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough div:nth-of-type(-n+4) {
+	margin-bottom: 20px !important;			  
+}
+.postid-51696 .et_pb_column.et_pb_column_1_3.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough.et-last-child div:nth-of-type(1){
+	margin-bottom: 20px !important;
+}
+
+/* do not display "description" */
+.postid-51696 .et_pb_tabs_controls.clearfix {
+	display: none;
+}
+/* remove the border for the text */
+.postid-51696 .et_pb_module.et_pb_wc_tabs.et_pb_wc_tabs_0.et_pb_tabs  {
+	border: 0 !important;
+}
+/* change the description section background */
+@media (min-width: 1000px) {
+	.postid-51696 .et_pb_all_tabs {
+		background-image: url(https://www.beanculture.com.au/wp-content/uploads/2018/09/coffee-beans-150.png);
+		background-position: left !important;
+		background-size: auto !important;
+	}
+	.postid-51696 .et_pb_tab_content {
+		margin-top: 5em;
+	}
+}
+/* remove the bottom padding and draw a horizontal line on and under */
+.postid-51696 .et_pb_row.et_pb_row_1 {
+	padding-bottom: 0.1px !important;
+}
+.postid-51696 .et_pb_all_tabs {
+	background-color: #f5f6f5 !important;
+	margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    min-height: 40em;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+/* change the text in description */
+.postid-51696 .et_pb_tab_content {
+	TEXT-ALIGN: CENTER;
+    color: #a89c8b;
+    font-family: "program",Helvetica,Arial,sans-serif;
+   	font-size: 28px;
+    line-height: 40px;
+}
+
+.postid-51696 .et_pb_row.et_pb_row_2 {
+	padding: 0 !important;
+}
+
+.postid-51696 .related.products {
+	margin-top: 50px;
+	
+}
+/* let the displayed images align horizontally */
+@media (min-width: 1000px) {
+	.postid-51696 .et_shop_image {
+		min-height: 450px;
+		display: flex !important;
+		align-items: center;
+	}
+}
+/* change the text from upper case to normal form */
+.postid-51696 .woocommerce-loop-product__title {
+	font-family: "program",Helvetica,Arial,sans-serif !important;
+	text-transform: initial !important;
+}
